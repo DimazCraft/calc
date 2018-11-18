@@ -10,7 +10,7 @@ Then sign them and create two patches using `git format-patch`.
 Then combine "improve calculation accuracy" and "fix truncation error" into one patch using `rebase -i`. Sign it.
 Then remove the top patch "formatting: use tabs instead of spaces" using `git rebase -i` - I really don't like tabs ;) .
 
-Rename the current remote on the "github". Add another remote: https://github.com/SergiiPiatakov/calculator.git and call it "gitlab".
+Rename the current remote on the "github". Add another remote: https://gitlab.com/SergiiPiatakov/calculator.git and call it "gitlab".
 Get code from the "gitlab" remote by `git fetch`, and explore it by `git log gitlab/master`.
 Then grab the commit: "add a multiplication operation" by `git cherry-pick`.
 Create your own patch about 5-15 lines (any changes).
